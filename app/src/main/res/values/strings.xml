@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fitness</string>
+
+    <string-array name="intensity_levels">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+</resources>

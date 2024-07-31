@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Fitness" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/ios_primary</item>
+        <item name="colorPrimaryVariant">@color/ios_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/ios_secondary</item>
+        <item name="colorSecondaryVariant">@color/ios_secondary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/ios_background</item>
+        <item name="android:buttonStyle">@style/iOSButton</item>
+        <item name="android:editTextStyle">@style/iOSEditText</item>
+        <item name="android:radioButtonStyle">@style/iOSRadioButton</item>
+        <item name="android:listViewStyle">@style/iOSListView</item>
+    </style>
+
+    <!-- iOS-like button style -->
+    <style name="iOSButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">8dp</item>
+        <item name="android:backgroundTint">@color/ios_primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- iOS-like EditText style -->
+    <style name="iOSEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:backgroundTint">@color/ios_primary</item>
+    </style>
+
+
+
+    <!-- iOS-like RadioButton style -->
+    <style name="iOSRadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:buttonTint">@color/ios_primary</item>
+    </style>
+
+    <!-- iOS-like ListView style -->
+    <style name="iOSListView" >
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+</resources>
